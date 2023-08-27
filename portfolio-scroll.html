@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-portfolio-scroll.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="menu">
+      <a class="menu-i" href="#portfolio"
+        ><span class="menu-i-tx">portfolio</span></a
+      >
+      <a class="menu-i" href="#contact"
+        ><span class="menu-i-tx">contact</span></a
+      >
+      <a class="menu-l" href="https://es-la.facebook.com/" target="_blank"
+        ><img
+          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/facebook.svg"
+          alt=""
+        />
+      </a>
+      <a class="menu-l" href="http://instagram.com" target="_blank"
+        ><img
+          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/instagram.svg"
+          alt=""
+        />
+      </a>
+      <a class="menu-l" href="http://youtube.com" target="_blank"
+        ><img
+          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/youtube.svg"
+          alt=""
+        />
+      </a>
+      <a class="menu-l" href="http://spotify.com" target="_blank"
+        ><img
+          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/spotify.svg"
+          alt=""
+        />
+      </a>
+    </div>
+    <div class="nav">
+      <div class="logo">
+        <a href=""
+          ><img
+            class="logo-ghass"
+            src="./MEDIA/Ghass-thumbnail-website.png"
+            alt="ghass-fill-black"
+        /></a>
+      </div>
+    </div>
+    <div class="landing">
+      <div class="video-wrapper">
+        <video class="video-background" autoplay muted loop playsinline>
+          <source
+            src="./MEDIA/home/00_home web - 2714x1480.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="home-container">
+          <div class="logo-background">
+            <lottie-player
+              src="./MEDIA/home/data.json"
+              background="transparent"
+              speed="1"
+              mode="normal"
+              style="width: 450px; height: 450px"
+              loop
+              autoplay
+              playsinline
+            ></lottie-player>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio" class="container-1">
+        <h1 class="portfolio-heading">
+          PORTFO<span style="color: white">LIO SECTION</span>
+        </h1>
+        <section
+          id="grid-container"
+          class="transitions-enabled fluid masonry js-masonry grid"
+        >
+          <article class="beach people sea">
+            <a
+              href="https://www.imdb.com/title/tt15680618/?ref_=tt_rvi_tt_i_1"
+              target="_blank"
+            >
+              <img
+                src="./MEDIA/portfolio/bride-token-poster.png"
+                class="img-responsive"
+              />
+            </a>
+          </article>
+
+          <article class="beach bird">
+            <a href="" target="_blank">
+              <img
+                src="./MEDIA/portfolio/adm-poster.png"
+                class="img-responsive"
+            /></a>
+          </article>
+
+          <article class="sea">
+            <a
+              href="https://open.spotify.com/artist/04uUTwnXnmClA1mZnFAsOZ?si=uaU9e9Z8R4um8xpCe59HOg"
+              target="_blank"
+            >
+              <img
+                src="./MEDIA/portfolio/mamih-vinyl-cover.png"
+                class="img-responsive"
+            /></a>
+          </article>
+
+          <article class="beach people rock sea">
+            <img
+              src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach2.jpg"
+              class="img-responsive"
+            />
+          </article>
+        </section>
+      </div>
+
+      <div class="container-2">
+        <div id="contact" class="contact-form">
+          <form>
+            <h1>GET IN TOUCH</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button class="submit-button">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>Copyright &copy; GHASS 2023</footer>
+      </div>
+    </div>
+  </body>
+</html>
