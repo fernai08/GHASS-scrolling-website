@@ -1,80 +1,52 @@
-<section
-          id="grid-container"
-          class="transitions-enabled fluid masonry js-masonry grid"
-        >
-          <article class="beach people sea">
-            <a
-              href="https://www.imdb.com/title/tt15680618/?ref_=tt_rvi_tt_i_1"
-              target="_blank"
-            >
-              <img
-                src="./MEDIA/portfolio/bride-token-poster.png"
-                class="img-responsive"
-              />
-            </a>
-          </article>
+# GHASS | Music Production & Composition Portfolio
 
-          <article class="beach bird">
-            <a href="" target="_blank">
-              <img
-                src="./MEDIA/portfolio/adm-poster.png"
-                class="img-responsive"
-            /></a>
-          </article>
+Welcome to the official portfolio website for **GHASS**, a music production and composition project based in Spain, co-created by **Fernan Mejuto** and **Miguel Gonzalez**.
 
-          <article class="sea">
-            <a
-              href="https://open.spotify.com/artist/04uUTwnXnmClA1mZnFAsOZ?si=uaU9e9Z8R4um8xpCe59HOg"
-              target="_blank"
-            >
-              <img
-                src="./MEDIA/portfolio/mamih-vinyl-cover.png"
-                class="img-responsive"
-            /></a>
-          </article>
+## Portfolio Showcase
 
-          <article class="beach people rock sea">
-            <img
-              src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach2.jpg"
-              class="img-responsive"
-            />
-          </article>
-        </section>
+This website serves as a **showcase of my personal portfolio**. It was fully designed and developed by me, **Fernan Mejuto**, as part of my professional portfolio to demonstrate my skills in web development, design, and music production.
 
+## Preview
 
+![GHASS Portfolio Screenshot](media/ghass-portfolio-screenshot.png)
 
+## About
 
+GHASS specializes in creating custom music for a wide range of projects, from audiovisual productions to live music performances. With a focus on originality and artistic direction, GHASS offers services including:
 
-        .img-responsive {
+- Music Composition & Sync
+- Music Editing
+- Music Production
+- Artistic and Musical Direction
+- Arrangements
 
-display: block;
-max-width: 100%;
-height: auto;
-}
+## Website Features
 
-.grid article {
-background-color: #FFFFFF;
-display: block;
-float: left;
-margin: 1%;
-width: 23%;
-}
+- **Portfolio Gallery:** Showcases selected works with embedded audio (SoundCloud) and video (YouTube) players.
+- **Contact Section:** Allows visitors to get in touch directly via a contact form.
+- **Responsive Design:** Built with HTML, CSS, and Bootstrap for compatibility across devices.
+- **Social Media Integration:** Links to SoundCloud, GitHub, Twitter, Instagram, and CodePen.
+- **Custom Visuals:** Includes unique artwork and branding assets.
 
-@media (max-width: 1024px) {
-.grid article {
-width: 31.3%;
-}
-}
+## Getting Started
 
-@media (max-width: 767px) {
-.grid article {
-width: 48%;
-}
-}
+To view the website locally:
 
-@media (max-width: 479px) {
-.grid article {
-margin: 2% 0;
-width: 100%;
-}
-}
+1. Clone or download this repository.
+2. Open `portfolio-scroll.html` in your web browser.
+
+No build steps are required; all dependencies are loaded via CDN.
+
+## Credits
+
+- **Site designed, developed, and programmed by:** Fernan Mejuto
+- **Co-designed with:** Javier Querentes
+- **Co-created with:** Miguel Gonzalez
+
+## License
+
+All rights reserved © GHASS
+
+---
+
+For more information, visit [www.ghass.es](http://www.ghass.es) or contact us at info@ghass.es.

@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+
+# VS Code settings (optional, if you don’t want to share your editor config)
+.vscode/
+
+# Node modules (if you ever use npm packages)
+node_modules/
+
+# Log files
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
