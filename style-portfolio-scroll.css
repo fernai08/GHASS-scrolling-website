@@ -22,7 +22,7 @@ body, html {
   scroll-behavior: smooth;
   width: auto;
   height: auto;
-  background: url(./media/scratch-mural-bg.jpeg);
+  background: url(./assets/scratch-mural-bg.jpeg);
   background-size: cover;
 
 }
