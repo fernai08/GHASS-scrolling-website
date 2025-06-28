@@ -8,7 +8,7 @@ This website serves as a **showcase of my personal portfolio**. It was fully des
 
 ## Preview
 
-![GHASS Portfolio Screenshot](media/ghass-portfolio-screenshot.png)
+![GHASS Portfolio Screenshot](./assets/screenshot.png)
 
 ## About
 
