@@ -4,153 +4,462 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="GHASS | Fernan Mejuto & Miguel Gonzalez | Music Creators"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./media/logos/ghass-favicon.ico" />
+    <meta property="og:url" content="http://www.ghass.es" />
+    <meta
+      name="google-site-verification"
+      content="aW5mb0BnaGFzcy5lcywgd3d3LmdoYXNzLmVz"
+    />
     <link rel="stylesheet" href="style-portfolio-scroll.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./media/logos/ghass-favicon.ico"
+    />
+    <link rel="apple-touch-icon" href="./media/logos/ghass-shortcut.png" />
+    <link rel="canonical" href="http://www.ghass.es" />
+    <meta
+      name="description"
+      content="We focus on creating custom music for your upcoming project, from an audiovisual to music performances"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
       rel="stylesheet"
     />
-    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <script src="script-scroll-portfolio.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+    <title>GHASS | Fernan Mejuto & Miguel Gonzalez | Music Creators</title>
   </head>
 
   <body>
-    <div class="menu">
-      <a class="menu-i" href="#portfolio"
-        ><span class="menu-i-tx">portfolio</span></a
-      >
-      <a class="menu-i" href="#contact"
-        ><span class="menu-i-tx">contact</span></a
-      >
-      <a class="menu-l" href="https://es-la.facebook.com/" target="_blank"
-        ><img
-          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/facebook.svg"
-          alt=""
-        />
-      </a>
-      <a class="menu-l" href="http://instagram.com" target="_blank"
-        ><img
-          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/instagram.svg"
-          alt=""
-        />
-      </a>
-      <a class="menu-l" href="http://youtube.com" target="_blank"
-        ><img
-          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/youtube.svg"
-          alt=""
-        />
-      </a>
-      <a class="menu-l" href="http://spotify.com" target="_blank"
-        ><img
-          src="./MEDIA/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/spotify.svg"
-          alt=""
-        />
-      </a>
-    </div>
-    <div class="nav">
-      <div class="logo">
-        <a href=""
+    <div class="landing-web">
+      <div class="menu">
+        <a class="menu-i" href="#projects"
+          ><span class="menu-i-tx">projects</span></a
+        >
+        <a class="menu-i" href="#contact"
+          ><span class="menu-i-tx">contact</span></a
+        >
+        <a class="menu-l" href="https://es-la.facebook.com/" target="_blank"
           ><img
-            class="logo-ghass"
-            src="./MEDIA/Ghass-thumbnail-website.png"
-            alt="ghass-fill-black"
-        /></a>
-      </div>
-    </div>
-    <div class="landing">
-      <div class="video-wrapper">
-        <video class="video-background" autoplay muted loop playsinline>
-          <source
-            src="./MEDIA/home/00_home web - 2714x1480.mp4"
-            type="video/mp4"
+            src="./media/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/facebook.svg"
+            alt="Facebook logo"
           />
-        </video>
-        <div class="home-container">
-          <div class="logo-background">
-            <lottie-player
-              src="./MEDIA/home/data.json"
-              background="transparent"
-              speed="1"
-              mode="normal"
-              style="width: 450px; height: 450px"
-              loop
-              autoplay
-              playsinline
-            ></lottie-player>
+        </a>
+        <a class="menu-l" href="http://instagram.com" target="_blank"
+          ><img
+            src="./media/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/instagram.svg"
+            alt="Instagram logo"
+          />
+        </a>
+        <a class="menu-l" href="http://youtube.com" target="_blank"
+          ><img
+            src="./media/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/youtube.svg"
+            alt="Youtube logo"
+          />
+        </a>
+        <a class="menu-l" href="http://spotify.com" target="_blank"
+          ><img
+            src="./media/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos/spotify.svg"
+            alt="Spotify logo"
+          />
+        </a>
+      </div>
+      <div class="nav">
+        <div class="logo">
+          <a href=""
+            ><img
+              class="logo-ghass"
+              src="./media/Ghass-thumbnail-website.png"
+              alt="ghass-fill-black"
+          /></a>
+        </div>
+      </div>
+      <div class="landing">
+        <div class="video-wrapper">
+          <video class="video-background" autoplay muted loop playsinline>
+            <source
+              src="./media/home/00_home web - 2714x1480.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="home-container">
+            <div class="logo-background">
+              <lottie-player
+                src="./media/home/data.json"
+                background="transparent"
+                speed="1"
+                mode="normal"
+                style="width: 450px; height: 450px"
+                loop
+                autoplay
+                playsinline
+              ></lottie-player>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div id="portfolio" class="container-1">
-        <h1 class="portfolio-heading">
-          PORTFO<span style="color: white">LIO SECTION</span>
-        </h1>
-        <section
-          id="grid-container"
-          class="transitions-enabled fluid masonry js-masonry grid"
-        >
-          <article class="beach people sea">
-            <a
-              href="https://www.imdb.com/title/tt15680618/?ref_=tt_rvi_tt_i_1"
-              target="_blank"
-            >
-              <img
-                src="./MEDIA/portfolio/bride-token-poster.png"
-                class="img-responsive"
-              />
-            </a>
-          </article>
+        <div id="projects" class="container-1">
+          <h1 class="portfolio-heading">
+            PROJECTS<span style="color: white"></span>
+          </h1>
+          <!--image slider library https://codepen.io/nicole-sce/pen/rNNzRRK-->
+          <div class="slider" id="slider" style="overflow: scroll hidden">
+            <div class="image-slider">
+              <div class="img-container">
+                <a href="#"
+                  ><img
+                    class="image"
+                    src="./media/portfolio/wappie-poster.jpeg"
+                    alt="Wappie"
+                    style="background-color: #d9716800"
+                  />
+                  <div class="img-overlay">
+                    <iframe
+                      width="100%"
+                      height="300"
+                      scrolling="no"
+                      frameborder="no"
+                      allow="autoplay"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1128435907&color=%23555150&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    ></iframe>
+                    <div
+                      style="
+                        font-size: 10px;
+                        color: #cccccc;
+                        line-break: anywhere;
+                        word-break: normal;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        font-family: Interstate, Lucida Grande,
+                          Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                          Tahoma, sans-serif;
+                        font-weight: 100;
+                      "
+                    >
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez"
+                        title="Fernan Mejuto Vazquez"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >Fernan Mejuto Vazquez</a
+                      >
+                      ·
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez/and-it-goes-one-ost-from-wappie"
+                        title="&#x27;&#x27;And it goes one&#x27;&#x27; OST from WAPPIE"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >&#x27;&#x27;And it goes one&#x27;&#x27; OST from
+                        WAPPIE</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
 
-          <article class="beach bird">
-            <a href="" target="_blank">
-              <img
-                src="./MEDIA/portfolio/adm-poster.png"
-                class="img-responsive"
-            /></a>
-          </article>
+              <div class="img-container">
+                <a href="#"
+                  ><img
+                    class="image"
+                    src="./media/portfolio/adm-poster.png"
+                    alt="Anis del Mono"
+                    style="background-color: #d9716800"
+                  />
+                  <div class="img-overlay">
+                    <iframe
+                      width="100%"
+                      height="300"
+                      scrolling="no"
+                      frameborder="no"
+                      allow="autoplay"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1028412712&color=%23555150&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    ></iframe>
+                    <div
+                      style="
+                        font-size: 10px;
+                        color: #cccccc;
+                        line-break: anywhere;
+                        word-break: normal;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        font-family: Interstate, Lucida Grande,
+                          Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                          Tahoma, sans-serif;
+                        font-weight: 100;
+                      "
+                    >
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez"
+                        title="Fernan Mejuto Vazquez"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >Fernan Mejuto Vazquez</a
+                      >
+                      ·
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez/adm-theme-variations-trio-version"
+                        title="ADM theme &amp; variations Trio version"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >ADM theme &amp; variations Trio version</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
 
-          <article class="sea">
-            <a
-              href="https://open.spotify.com/artist/04uUTwnXnmClA1mZnFAsOZ?si=uaU9e9Z8R4um8xpCe59HOg"
-              target="_blank"
-            >
-              <img
-                src="./MEDIA/portfolio/mamih-vinyl-cover.png"
-                class="img-responsive"
-            /></a>
-          </article>
+              <div class="img-container">
+                <a href="#"
+                  ><img
+                    class="image"
+                    src="./media/portfolio/bride-toke-poster.png"
+                    alt="Bride Token"
+                    style="background-color: #d9716800"
+                  />
+                  <div class="img-overlay">
+                    <iframe
+                      width="100%"
+                      height="300"
+                      scrolling="no"
+                      frameborder="no"
+                      allow="autoplay"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1048022371&color=%23555150&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    ></iframe>
+                    <div
+                      style="
+                        font-size: 10px;
+                        color: #cccccc;
+                        line-break: anywhere;
+                        word-break: normal;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        font-family: Interstate, Lucida Grande,
+                          Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                          Tahoma, sans-serif;
+                        font-weight: 100;
+                      "
+                    >
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez"
+                        title="Fernan Mejuto Vazquez"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >Fernan Mejuto Vazquez</a
+                      >
+                      ·
+                      <a
+                        href="https://soundcloud.com/fernanmejutovazquez/bride-token-ost"
+                        title="&#x27;&#x27; 妈妈 &#x27;&#x27; Bride Token OST"
+                        target="_blank"
+                        style="color: #cccccc; text-decoration: none"
+                        >&#x27;&#x27; 妈妈 &#x27;&#x27; Bride Token OST</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
 
-          <article class="beach people rock sea">
-            <img
-              src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach2.jpg"
-              class="img-responsive"
-            />
-          </article>
-        </section>
-      </div>
+              <div class="img-container">
+                <a href="#"
+                  ><img
+                    class="image"
+                    src="./media/portfolio/rede-cultural.jpg"
+                    alt="Rede Cultural"
+                    style="background-color: #d9716800"
+                  />
+                  <div class="img-overlay">
+                    <iframe
+                      width="auto"
+                      height="auto"
+                      src="https://www.youtube.com/embed/kAirRQq7meM?si=mnxzM99uOFs-QCJK&amp;controls=0"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </a>
+              </div>
 
-      <div class="container-2">
-        <div id="contact" class="contact-form">
-          <form>
-            <h1>GET IN TOUCH</h1>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button class="submit-button">SUBMIT</button>
-          </form>
+              <div class="img-container">
+                <a href="#"
+                  ><img
+                    class="image"
+                    src="./media/portfolio/antolin-faraldo-poster.jpg"
+                    alt="Antolin Faraldo Documental"
+                    style="background-color: #d9716800"
+                  />
+                  <div class="img-overlay">
+                    <iframe
+                      width="auto"
+                      height="auto"
+                      src="https://www.youtube.com/embed/6YUYpfkKK1A?si=RDq6j_xiCawXhexR&amp;controls=0"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="footer">
-        <footer>Copyright &copy; GHASS 2023</footer>
+        <div class="container-2">
+          <div class="about">
+            <h1 class="about-header"></h1>
+            <h2>Fernan Mejuto & Miguel Gonzalez</h2>
+            <h3>
+              Music composition & Sync | Music Editing | Music production |
+              Artistic and Musical Direction | Arrangements
+            </h3>
+            <p class="about-content">
+              "GHASS focuses on creating custom music for your upcoming project,
+              from an audiovisual to music performances"
+            </p>
+          </div>
+        </div>
+        <div class="container-3">
+          <section id="contact">
+            <div class="contact-wrapper">
+              <h1>CONTACT</h1>
+              <br />
+              <form
+                class="form-horizontal"
+                id="contact-form"
+                method="POST"
+                action="contact/contact.php"
+              >
+                <div class="messages" id="messages"></div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="NAME"
+                      name="name"
+                      id="name"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="EMAIL"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                </div>
+
+                <textarea
+                  class="form-control"
+                  placeholder="MESSAGE"
+                  name="message"
+                  id="message"
+                  rows="3"
+                ></textarea>
+                <br />
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit"
+                  class="send-button"
+                />
+              </form>
+
+              <div class="direct-contact-container">
+                <ul class="contact-list">
+                  <li class="list-item">
+                    <i class="fa fa-map-marker fa-2x">
+                      <span class="contact-text place"
+                        >Galicia | The Netherland</span
+                      >
+                    </i>
+                  </li>
+
+                  <li class="list-item">
+                    <i class="fa fa-phone fa-2x">
+                      <span class="contact-text phone">(000) 555-2222</span>
+                    </i>
+                  </li>
+
+                  <li class="list-item">
+                    <i class="fa fa-envelope fa-2x">
+                      <span class="contact-text email">info@ghass.es</span>
+                    </i>
+                  </li>
+                </ul>
+
+                <ul class="social-media-list">
+                  <li>
+                    <a href="#" class="contact-icon">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="contact-icon">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="contact-icon">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="contact-icon">
+                      <i class="fa fa-codepen"></i>
+                    </a>
+                  </li>
+                </ul>
+
+                <hr />
+                <div class="copyright">
+                  &copy; GHASS ALL OF THE RIGHTS RESERVED
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--footer-->
+        <footer>
+          <div class="footer">
+            <div>
+              Site developed and Programmed by Fernan Mejuto <br />Co-designed
+              with Javier Querentes
+            </div>
+
+            <div>Copyright &copy; GHASS 2023</div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>
