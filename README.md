@@ -1,5 +1,7 @@
 # GHASS | Music Production & Composition Portfolio
 
+[🌐 View the live website](https://www.ghass.es)
+
 Welcome to the official portfolio website for **GHASS**, a music production and composition project based in Spain, co-created by **Fernan Mejuto** and **Miguel Gonzalez**.
 
 ## Portfolio Showcase
